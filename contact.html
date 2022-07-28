@@ -9,14 +9,14 @@
 <link rel="pingback" href="xmlrpc.php">
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Contacts &#8211; House</title>
+<title>Core Cabinetry</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel='dns-prefetch' href='http://s.w.org/' />
 <link rel="alternate" type="application/rss+xml" title="House &raquo; Feed" href="feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="House &raquo; RSS de los comentarios" href="comments/feed/index.html" />
 <script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0"}};
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"wp-includes\/js\/wp-emoji-release.min.js?ver=6.0"}};
 /*! This file is auto-generated */
 !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
 </script>
@@ -78,7 +78,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="wp-content/uploads/2019/09/cropped-fav.png" sizes="32x32" />
 <link rel="icon" href="wp-content/uploads/2019/09/cropped-fav.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="wp-content/uploads/2019/09/cropped-fav.png" />
-<meta name="msapplication-TileImage" content="http://localhost/wordpress/wp-content/uploads/2019/09/cropped-fav.png" />
+<meta name="msapplication-TileImage" content="wp-content/uploads/2019/09/cropped-fav.png" />
 </head>
 
 <body class="page-template page-template-page-templates page-template-fullwidth-content page-template-page-templatesfullwidth-content-php page page-id-22 layout-fullwidth blog-default elementor-default elementor-kit-320 elementor-page elementor-page-22">
@@ -113,154 +113,548 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 
-	<header id="masthead" class="site-header " 
-	style="position: fixed; z-index: 100; background-color: rgba(255,255,255, 0.98); min-width: 100vw;  
+
+
+
+
+
+
+
+	
+
+	<style >
+		.mobileheader{
+			display: none;
+		}
+		.elementor-element-755d04b{
+		
+		}
+		@media(max-width:1024px){
+			.desktop {				
+					display: none;					
+			}
+			.mobileheader{
+				display: flex;
+			}
+		}
+	</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="filtro" style="
+  position: fixed;
+    top: 10vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 8vh;
+    max-height: 8vh;
+    display: flex;
+
+    z-index: 100;
+    background-color: rgba( 255,255,255,  0.75);
+	display: none;
+">
+	<div style="
+		border: 1px solid red;
+	 	position: absolute;
+        min-width: 100vw;
+        min-height: 8vh;
+        backdrop-filter: blur(20px);
+		
+	
+	">
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+	<header id="masthead" class="site-header desktop" 
+	style="
+	position: fixed; 
+	z-index: 100; 
+	min-width: 100vw;  
 	opacity: 0.9;
-	max-height: 5vh; min-height: 5vh;
+	max-height:8vh; 
+	min-height: 8vh;
 	"
 	>
+	
 
-
-				<div data-elementor-type="jet_header" data-elementor-id="125" class="elementor elementor-125"
-				 >
+		<div data-elementor-type="jet_header" data-elementor-id="125" class="elementor elementor-125" 
+				style=" 
+				max-height: 8vh; 
+				max-height: 8vh; 
+				height: 8vh;
+				padding: 0;
+				margin: 0;
+			"
+		
+		>			
+							
+			<section class="elementor-section elementor-top-section elementor-element elementor-element-755d04b elementor-section-full_width elementor-section-height-default elementor-section-height-default"			  
+					data-id="755d04b" 
+					data-element_type="section" 
+					data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;536cade&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}],&quot;background_background&quot;:&quot;classic&quot;}"
+					
+					style=" 
+					max-height: 8vh; 
+					max-height: 8vh; 
+					height: 8vh;
+					padding: 0;
+					margin: 0;
+					background-color: #FFF;
+					"
+					>
+				<div class="elementor-container elementor-column-gap-no"
+					style="backdrop-filter: blur(25px);"
+				>
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bffc9b7"
+						data-id="bffc9b7" 
+						data-element_type="column"						
+						>
+					
+						<div class="elementor-widget-wrap elementor-element-populated"
+							
+						>
+							<div class="elementor-element elementor-element-d46b128 elementor-widget__width-auto hamburger_close elementor-widget elementor-widget-jet-hamburger-panel" 
+								
+								data-id="d46b128" 
+								data-element_type="widget" 
+								data-widget_type="jet-hamburger-panel.default">
+								<div class="elementor-widget-container"
 									
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-755d04b elementor-section-full_width elementor-section-height-default elementor-section-height-default" 
-							data-id="755d04b" 
-							data-element_type="section" 
-							data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;536cade&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}],&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-no">
-							<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bffc9b7" data-id="bffc9b7" data-element_type="column">
-								<div class="elementor-widget-wrap elementor-element-populated">
-									<div class="elementor-element elementor-element-d46b128 elementor-widget__width-auto hamburger_close elementor-widget elementor-widget-jet-hamburger-panel" data-id="d46b128" data-element_type="widget" data-widget_type="jet-hamburger-panel.default">
-										<div class="elementor-widget-container">
-											<div class="jet-hamburger-panel jet-hamburger-panel-right-position jet-hamburger-panel-fade-effect" data-settings="{&quot;position&quot;:&quot;right&quot;,&quot;ajaxTemplate&quot;:false}">
-			
-			<div class="jet-hamburger-panel__toggle" style="@media screen(min-width: 700px) {
+								>
+									<div class="jet-hamburger-panel jet-hamburger-panel-right-position jet-hamburger-panel-fade-effect" 
+										data-settings="{&quot;position&quot;:&quot;right&quot;,&quot;ajaxTemplate&quot;:false}">			
+										<div class="jet-hamburger-panel__toggle">
+											<div class="jet-hamburger-panel__toggle-icon"
+											style="display: none"
+											>
+												<span class="jet-hamburger-panel__icon icon-normal jet-blocks-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" 
+														width="20" 
+														height="17" 
+														fill="none">
+														<path fill="#D29C7D" d="M0 0h20v3H0V0zm0 7h20v3H0V7zm0 7h20v3H0v-3z"/>
+													</svg>
+												</span>
+												<span class="jet-hamburger-panel__icon icon-active jet-blocks-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" width="20" height="10" fill="none">
+														<path fill="#D29C7D" d="M0 0h20v3H0V0zm0 7h20v3H0V7zm0 7h20v3H0v-3z"/>
+													</svg>
+												</span>
+											</div>
+										</div>			
+										<div class="jet-hamburger-panel__instance">										
+											<div class="jet-hamburger-panel__cover">
+											</div>
+											<div class="jet-hamburger-panel__inner">
+												<div class="jet-hamburger-panel__close-button jet-blocks-icon" >												
+													<svg xmlns="http://www.w3.org/2000/svg" 
+														width="20" 
+														height="36" 
+														viewBox="0 0 20 36" 
+														fill="none">
+														<path d="M0 0H20V3H0V0Z" fill="#D29C7D"></path>
+														<path d="M0 33H20V36H0V33Z" fill="#D29C7D"></path>
+														<path d="M0 16H20V19H0V16Z" fill="#D29C7D"></path>
+													</svg>
+												</div>
+												<style id="elementor-post-44">
+													.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-container{min-height:100vh;}
+													.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:center;align-items:center;}
+													.elementor-44 .elementor-element.elementor-element-a6aae75 .elementor-repeater-item-cbe6c2f.jet-parallax-section__layout .jet-parallax-section__image{background-size:auto;}
+													.elementor-bc-flex-widget .elementor-44 .elementor-element.elementor-element-169f786.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-44 .elementor-element.elementor-element-169f786.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}
+													.elementor-44 .elementor-element.elementor-element-169f786.elementor-column > .elementor-widget-wrap{justify-content:center;}
+													.elementor-44 .elementor-element.elementor-element-169f786 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}
+													.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--horizontal{justify-content:flex-start;text-align:left;}
+													.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--vertical .menu-item-link-top{justify-content:flex-start;text-align:left;}
+													.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--vertical-sub-bottom .menu-item-link-sub{justify-content:flex-start;text-align:left;}
+													.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top{color:#343549;padding:0px 0px 9px 0px;border-style:solid;border-width:0px 0px 6px 0px;border-color:rgba(255,255,255,0);}
+													.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-family:"Red Hat Display", Sans-serif;font-size:44px;font-weight:bold;text-transform:uppercase;line-height:1em;letter-spacing:4.4px;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item:hover > .menu-item-link-top{border-color:#d29c7d;}
+													.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item.current-menu-item .menu-item-link-top{border-color:#d29c7d;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav > .jet-nav__item{margin:0em 0em 2.85em 0em;}.elementor-44 .elementor-element.elementor-element-f6c0dd3{width:auto;max-width:auto;}
+													.elementor-44 .elementor-element.elementor-element-a6aae75:not(.elementor-motion-effects-element-type-background), .elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+														background-color:rgba(229,229,236,0.95);
+													}.elementor-44 .elementor-element.elementor-element-a6aae75{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}
+													.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}
+													@media(max-width:1024px){
+														.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-size:36px;}
+														.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav > .jet-nav__item{margin:0em 0em 1.5em 0em;}
+													}
+													@media(max-width:767px){
+														.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-mobile-menu .menu-item-link{justify-content:flex-start;text-align:left;}	
+														.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-size:22px;}
+													}
+												</style>
+											<div class="jet-hamburger-panel__content" data-template-id="44">		
+										<div data-elementor-type="section" data-elementor-id="44" class="elementor elementor-44">
+										<section class="elementor-section elementor-top-section elementor-element elementor-element-a6aae75 elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle elementor-section-height-default elementor-section-items-middle" 
+											data-id="a6aae75" 
+											data-element_type="section" 
+											data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;cbe6c2f&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}],&quot;background_background&quot;:&quot;classic&quot;}">
+											<div class="elementor-container elementor-column-gap-no">
+												<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-169f786" data-id="169f786" data-element_type="column">
+													<div class="elementor-widget-wrap elementor-element-populated">				
+														<div class="elementor-element elementor-element-f6c0dd3 elementor-widget__width-auto jet-nav-align-flex-start elementor-widget elementor-widget-jet-nav-menu" data-id="f6c0dd3" data-element_type="widget" data-widget_type="jet-nav-menu.default">
+															<div class="elementor-widget-container" >			
+																<nav class="jet-nav-wrap">
+																	<div class="menu-main-menu-container"	>
+																		<div class="jet-nav jet-nav--vertical jet-nav--vertical-sub-right-side">
+																			<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-28 jet-nav__item">
+																				<a href="about.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">About</span></a>
+																			</div>
+																			<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-27 jet-nav__item">
+																				<a href="what-we-do/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">What we do</span></a>
+																			</div>
+																			<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-26 jet-nav__item">
+																				<a href="projects/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">Projects</span></a>
+																			</div>
+																			<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-25 jet-nav__item">
+																				<a href="contacts/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">Contacts</span></a>
+																			</div>
+																		</div>
+																	</div>
+																</nav>		
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>				
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="elementor-element elementor-element-cc1a787 elementor-widget__width-auto elementor-widget elementor-widget-jet-logo" data-id="cc1a787" data-element_type="widget" data-widget_type="jet-logo.default"
+				style="
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 6vh;
+				padding: 0;
+				"
+			>				
+
+				<div class="elementor-widget-container" >
+					<div class="elementor-jet-logo jet-blocks" >
+						<div class="jet-logo jet-logo-type-image jet-logo-display-block">
+							<div class="jet-logo__link" 
+							style="
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								"
+							>
+								<!--  Logo  -->
+								<a href="index.html"
+								style="
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								margin-left: 3vw;
+								">						
+									<img src="img/Logo.svg" class="jet-logo__img" alt="Cord" width="220" height="15" srcset="img/Logo.svg 2x">
+								</a>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--  Menu Escritorio-->
+	<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73ba77e" data-id="73ba77e" data-element_type="column" 
+		style="	
+			min-width: 80vw; 
+			position: absolute; 
+			margin-left: 10vw; 
+			display: flex; 
+			justify-content: center;	
+			align-items: center;				
+			max-height: 8vh;
+		">
+
+					<ul style="
+					min-width: 50vw; display: flex; 
+					align-items: center; 
+					justify-content: space-around;
+					flex-direction: row; list-style: none;  
+					min-height: 8vh;
+					margin: 0;
+					margin-left:20vw;
+					">
+						<li style=" font-size: 0.9vw;">
+							<a href="index.html">Home</a>
+						</li>
+						<li style=" font-size: 0.9vw;">
+							<a href="about.html">About</a>
+						</li>
+						<li style=" font-size: 0.9vw;">
+							<a href="projects.html">Our Projects</a>
+					
+						</li>
+						<li style="font-size: 0.9vw;">
+							<a href="browser.html">Browse our selection</a>
+							
+						</li>
+						<li style=" font-size: 0.9vw;">
+							<a href="contact.html">Contact us</a>	
+						</li>
+					</ul>
+	
+					<div class="elementor-widget-wrap elementor-element-populated"
+						style=" margin-left: 5vw;">
+						<div style="
+							display: flex; 
+							justify-content: space-around; 
+							align-items: center;
+							min-width: 8vw;
+							margin-left: 7vw;
+							min-height: 8vh;
+							margin-top: 7vh;">
+							<img src="img/IconoInsta.png">
+							<img src="img/IconoFace.png">
+							<img src="img/IconoWhats.png">
+						</div>			
+						<div class="elementor-element elementor-element-c4679ef elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" 
+							data-id="c4679ef" 
+							data-element_type="widget" 
+							data-widget_type="button.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-button-wrapper">
+									<a href="tel:18002345678" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+										<span class="elementor-button-content-wrapper">
+											<span class="elementor-button-text"></span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-dadacad elementor-widget elementor-widget-text-editor" data-id="dadacad" data-element_type="widget" data-widget_type="text-editor.default">
+						<div class="elementor-widget-container">
+						<style>/*! elementor - v3.6.6 - 08-06-2022 */
+							.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}
+							.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}
+							.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) 
+							.elementor-drop-cap{margin-top:8px}
+							.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) 
+							.elementor-drop-cap-letter{width:1em;height:1em}
+							.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}
+							.elementor-widget-text-editor.elementor-drop-cap-letter{display:inline-block}
+						</style>				
+					</div>
+	</div>
+	
+	
+	<div class="elementor-element elementor-element-85f5545 elementor-widget elementor-widget-html" data-id="85f5545" data-element_type="widget" data-widget_type="html.default">
+		<div class="elementor-widget-container">
+			<style>
+    			.hamburger_close .jet-hamburger-panel__close-button{
+        			right:auto;
+        			left: 32px;
+        			top: 39px;
+    			}
+			</style>		
+		</div>
+	</div>		
+</div>
+</div>
+</div>
+</section>
 				
-			}">
-				<div class="jet-hamburger-panel__toggle-icon" style="
-					display: none;
-					@media screen(min-width: 700px) {
-					display:none
-				}">
-					<span class="jet-hamburger-panel__icon icon-normal jet-blocks-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="none"><path fill="#D29C7D" d="M0 0h20v3H0V0zm0 7h20v3H0V7zm0 7h20v3H0v-3z"/>
-						</svg>
-					</span>
-					<span class="jet-hamburger-panel__icon icon-active jet-blocks-icon">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="10" fill="none">
+
+</div>
+			
+
+</header><!-- #masthead -->
+
+
+
+
+
+
+
+<style>
+	@media (max-width: 1000px) {
+		.jet-hamburger-panel__toggle-icon{
+		}
+		.contenedorPrueba{
+			max-width: 15vw;
+		}
+		.imgenHeader{
+			margin-right: -6vw;
+		}
+	}
+</style>
+
+
+
+<header id="masthead" class="site-header mobileheader"			
+	style="
+		max-height: 4vh;
+		"
+	>
+	<div data-elementor-type="jet_header" data-elementor-id="125" class="elementor elementor-125">
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-755d04b elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="755d04b" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;536cade&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}],&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bffc9b7" data-id="bffc9b7" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d46b128 elementor-widget__width-auto hamburger_close elementor-widget elementor-widget-jet-hamburger-panel" data-id="d46b128" data-element_type="widget" data-widget_type="jet-hamburger-panel.default">
+							<div class="elementor-widget-container">
+								<div class="jet-hamburger-panel jet-hamburger-panel-right-position jet-hamburger-panel-fade-effect contenedorPrueba" data-settings="{&quot;position&quot;:&quot;right&quot;,&quot;ajaxTemplate&quot;:false}">
+									<div class="jet-hamburger-panel__toggle">
+									
+										<div class="jet-hamburger-panel__toggle-icon imgenHeader"  style="				
+											min-width: 10vw;
+											min-height: 5vh;
+											display: flex;
+											justify-content: center;
+											align-items: center;
+											
+										">
+					<span class="jet-hamburger-panel__icon icon-normal jet-blocks-icon" >
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="none">
 							<path fill="#D29C7D" d="M0 0h20v3H0V0zm0 7h20v3H0V7zm0 7h20v3H0v-3z"/>
 						</svg>
+					</span>
+					<span class="jet-hamburger-panel__icon icon-active jet-blocks-icon">										
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="none">
+							<path fill="#D29C7D" d="M0 0h20v3H0V0zm0 7h20v3H0V7zm0 7h20v3H0v-3z"/>
+						</svg> 
 					</span>
 				</div>
 			</div>			
 			<div class="jet-hamburger-panel__instance">
-		
-				<div class="jet-hamburger-panel__cover">
-				</div>
+				<div class="jet-hamburger-panel__cover"></div>
 				<div class="jet-hamburger-panel__inner">
-					<div class="jet-hamburger-panel__close-button jet-blocks-icon" ">
+
+					<style>
+						@media (max-width: 1000px) {
+							.imagen-header {
+								display: flex;
+								justify-content: flex-start;
+								align-items: flex-start;
+								min-width: 8vw;
+								margin: 0;
+								margin-top: -1vh;
+								margin-left: -1vw;
+							}				
+						
+						}
+						
+					</style>
+
+					<div class="jet-hamburger-panel__close-button jet-blocks-icon imagen-header" >
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" fill="none">
+							<path fill="#D29C7D" d="M0 0h20v3H0V0zm0 7h20v3H0V7zm0 7h20v3H0v-3z"/>
+						</svg>
+					</div>
 						
 						
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none"><path d="M0 0H20V3H0V0Z" fill="#D29C7D"></path><path d="M0 33H20V36H0V33Z" fill="#D29C7D"></path><path d="M0 16H20V19H0V16Z" fill="#D29C7D"></path></svg></div><style id="elementor-post-44">.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-container{min-height:100vh;}.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-44 .elementor-element.elementor-element-a6aae75 .elementor-repeater-item-cbe6c2f.jet-parallax-section__layout .jet-parallax-section__image{background-size:auto;}.elementor-bc-flex-widget .elementor-44 .elementor-element.elementor-element-169f786.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-44 .elementor-element.elementor-element-169f786.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-44 .elementor-element.elementor-element-169f786.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-44 .elementor-element.elementor-element-169f786 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--horizontal{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--vertical .menu-item-link-top{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--vertical-sub-bottom .menu-item-link-sub{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top{color:#343549;padding:0px 0px 9px 0px;border-style:solid;border-width:0px 0px 6px 0px;border-color:rgba(255,255,255,0);}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-family:"Red Hat Display", Sans-serif;font-size:44px;font-weight:bold;text-transform:uppercase;line-height:1em;letter-spacing:4.4px;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item:hover > .menu-item-link-top{border-color:#d29c7d;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item.current-menu-item .menu-item-link-top{border-color:#d29c7d;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav > .jet-nav__item{margin:0em 0em 2.85em 0em;}.elementor-44 .elementor-element.elementor-element-f6c0dd3{width:auto;max-width:auto;}.elementor-44 .elementor-element.elementor-element-a6aae75:not(.elementor-motion-effects-element-type-background), .elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:rgba(229,229,236,0.95);}.elementor-44 .elementor-element.elementor-element-a6aae75{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}@media(max-width:1024px){.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-size:36px;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav > .jet-nav__item{margin:0em 0em 1.5em 0em;}}@media(max-width:767px){.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-mobile-menu .menu-item-link{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-size:22px;}}</style><div class="jet-hamburger-panel__content" data-template-id="44">		<div data-elementor-type="section" data-elementor-id="44" class="elementor elementor-44">
+						<style id="elementor-post-44">.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-container{min-height:100vh;}.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-44 .elementor-element.elementor-element-a6aae75 .elementor-repeater-item-cbe6c2f.jet-parallax-section__layout .jet-parallax-section__image{background-size:auto;}.elementor-bc-flex-widget .elementor-44 .elementor-element.elementor-element-169f786.elementor-column .elementor-widget-wrap{align-items:center;}.elementor-44 .elementor-element.elementor-element-169f786.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:center;align-items:center;}.elementor-44 .elementor-element.elementor-element-169f786.elementor-column > .elementor-widget-wrap{justify-content:center;}.elementor-44 .elementor-element.elementor-element-169f786 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--horizontal{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--vertical .menu-item-link-top{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav--vertical-sub-bottom .menu-item-link-sub{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top{color:#343549;padding:0px 0px 9px 0px;border-style:solid;border-width:0px 0px 6px 0px;border-color:rgba(255,255,255,0);}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-family:"Red Hat Display", Sans-serif;font-size:44px;font-weight:bold;text-transform:uppercase;line-height:1em;letter-spacing:4.4px;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item:hover > .menu-item-link-top{border-color:#d29c7d;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item.current-menu-item .menu-item-link-top{border-color:#d29c7d;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav > .jet-nav__item{margin:0em 0em 2.85em 0em;}.elementor-44 .elementor-element.elementor-element-f6c0dd3{width:auto;max-width:auto;}.elementor-44 .elementor-element.elementor-element-a6aae75:not(.elementor-motion-effects-element-type-background), .elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:rgba(229,229,236,0.95);}.elementor-44 .elementor-element.elementor-element-a6aae75{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-44 .elementor-element.elementor-element-a6aae75 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}@media(max-width:1024px){.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-size:36px;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-nav > .jet-nav__item{margin:0em 0em 1.5em 0em;}}@media(max-width:767px){.elementor-44 .elementor-element.elementor-element-f6c0dd3 .jet-mobile-menu .menu-item-link{justify-content:flex-start;text-align:left;}.elementor-44 .elementor-element.elementor-element-f6c0dd3 .menu-item-link-top .jet-nav-link-text{font-size:22px;}}</style><div class="jet-hamburger-panel__content" data-template-id="44">		<div data-elementor-type="section" data-elementor-id="44" class="elementor elementor-44">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-a6aae75 elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle elementor-section-height-default elementor-section-items-middle" data-id="a6aae75" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;cbe6c2f&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}],&quot;background_background&quot;:&quot;classic&quot;}">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-169f786" data-id="169f786" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-				
-							<div class="elementor-element elementor-element-f6c0dd3 elementor-widget__width-auto jet-nav-align-flex-start elementor-widget elementor-widget-jet-nav-menu" data-id="f6c0dd3" data-element_type="widget" data-widget_type="jet-nav-menu.default">
-								<div class="elementor-widget-container" >
+								<div class="elementor-element elementor-element-f6c0dd3 elementor-widget__width-auto jet-nav-align-flex-start elementor-widget elementor-widget-jet-nav-menu" data-id="f6c0dd3" data-element_type="widget" data-widget_type="jet-nav-menu.default">
+				<div class="elementor-widget-container" >
+			<nav class="jet-nav-wrap">
+				<div class="menu-main-menu-container">
+					<div class="jet-nav jet-nav--vertical jet-nav--vertical-sub-right-side"><div class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item jet-nav__item-28 jet-nav__item"><a href="index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top">
+						<span class="jet-nav-link-text">HOME</span>
+					</a></div>
+<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-27 jet-nav__item"><a href="about.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top">
+	<span class="jet-nav-link-text">About</span>
+</a></div>
+<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-26 jet-nav__item"><a href="projects.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top">
+	<span class="jet-nav-link-text">Our Projects</span>
+</a></div>
+<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-26 jet-nav__item"><a href="browser.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top">
+	<span class="jet-nav-link-text">Browse our selection</span>
+</a></div>
+<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-25 jet-nav__item"><a href="contact.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top">
+	<span class="jet-nav-link-text">Contact us</span>
+</a></div>
+</div></div></nav>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		</div>				</div>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cc1a787 elementor-widget__width-auto elementor-widget elementor-widget-jet-logo" data-id="cc1a787" data-element_type="widget" data-widget_type="jet-logo.default">
+				<div class="elementor-widget-container" >
+			<div class="elementor-jet-logo jet-blocks"><div class="jet-logo jet-logo-type-image jet-logo-display-block">
+		
+		
+
+
+		<style>
+			@media (max-width: 1000px) {
+				.jet-logo__link{
+					min-height: 6vh;
+					min-width: 15vw;
+					display: flex;
+					align-items: flex-end;
+					justify-content: flex-end;
+				margin: 0;
+				}				
+			}
 			
-			<nav class="jet-nav-wrap"><div class="menu-main-menu-container"
-				
+		</style>
+
+
+		<a href="index.html" class="jet-logo__link" style="margin-left: 20vw; margin-right: 6vw; 
+			
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				">
+
+
+
+				<img src="img/Logo.svg" class="jet-logo__img" alt="House" width="124" height="19" srcset="img/Logo.svg 2x"></a>
+			</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73ba77e" data-id="73ba77e" data-element_type="column"
+				style="display: none; border: 1px solid red; max-height: 5vh;min-height: 5vh; min-width: 80vw;"
 				>
-				<div class="jet-nav jet-nav--vertical jet-nav--vertical-sub-right-side">
-					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-28 jet-nav__item">
-						<a href="about.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">About</span></a>
-					</div>
-					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-27 jet-nav__item">
-						<a href="what-we-do/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">What we do</span></a>
-					</div>
-					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-26 jet-nav__item">
-						<a href="projects/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">Projects</span></a>
-					</div>
-					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-25 jet-nav__item">
-						<a href="contacts/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">Contacts</span></a>
-					</div>
-					</div></div>
-			</nav>		
-
-
-			</div>
-				</div>
-					</div>
-				</div>
-				</div>
-				</section>
-				</div>
-				</div>				
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-
-		<div class="elementor-element elementor-element-cc1a787 elementor-widget__width-auto elementor-widget elementor-widget-jet-logo" data-id="cc1a787" data-element_type="widget" data-widget_type="jet-logo.default">				
-			<div class="elementor-widget-container" >
-				<div class="elementor-jet-logo jet-blocks" >
-					<div class="jet-logo jet-logo-type-image jet-logo-display-block">
-						<div class="jet-logo__link" >
-							<!--  Logo  -->
-							<a href="file:///Users/user/Downloads/wordpress%202/index.html">						
-								<img src="img/Logo.svg" class="jet-logo__img" alt="Cord" width="200" height="10" srcset="img/Logo.svg 2x">
-							</a>
-						</div>
-					</div>
-				</div>		
-			</div>
-		</div>
-	</div>
-		</div>
-		<!--  Menu Escritorio-->
-			<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73ba77e" data-id="73ba77e" data-element_type="column" 
-					style="min-width: 80vw; position: absolute; margin-left: 8vw; display: flex; justify-content: center;
-					
-					max-height: 5vh;
-					">
-
-					<ul style="min-width: 100%; display: flex; align-items: center; justify-content: center; flex-direction: row; list-style: none;  min-height: 7vh;margin: 0;">
-						<li style="min-width: 6vw; font-size: 1vw;">
-							<a href="file:///Users/user/Downloads/wordpress%202/index.html">Home</a>
-						</li>
-						<li style="min-width: 6vw; font-size: 1vw;">
-							<a href="file:///Users/user/Downloads/wordpress%202/about.html">About</a>
-						</li>
-						<li style="min-width: 9vw; font-size: 1vw;">
-							<a href="file:///Users/user/Downloads/wordpress%202/projects.html">Our Projects</a>
-					
-						</li>
-						<li style="min-width: 14vw; font-size: 1vw;">
-							<a href="file:///Users/user/Downloads/wordpress%202/browser.html">Browse our selection</a>
-							
-						</li>
-						<li style="min-width: 14vw; font-size: 1vw;">
-							<a href="file:///Users/user/Downloads/wordpress%202/contact.html">Quotation</a>	
-						</li>
-					</ul>
-
-			<div class="elementor-widget-wrap elementor-element-populated"
-			style=""
-			>
-					<div style="min-height: 8vh; display: flex; 
-					justify-content: space-around; align-items: center;
-					min-width: 8vw;
-					">
-						<img src="img/IconoInsta.png">
-						<img src="img/IconoFace.png">
-						<img src="img/IconoWhats.png">
-					</div>
-
-			
+			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-c4679ef elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="c4679ef" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
@@ -294,6 +688,58 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		</section>
 							</div>
 			</header><!-- #masthead -->
+
+
+
+<!--		FIN DE HEADER			-->
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -334,8 +780,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		<div class="breadcrumbs"><div></div><div>
 		<div class="breadcrumbs_content">
 		<div class="breadcrumbs_wrap"><div class="breadcrumbs_item"><a href="index.html" class="breadcrumbs_item_link is-home" rel="home" title="Home">Home</a></div>
-			 <div class="breadcrumbs_item"><div class="breadcrumbs_item_sep">&#47;</div></div> <div class="breadcrumbs_item"><span class="breadcrumbs_item_target">Request a quote
-			</span></div>
+			 <div class="breadcrumbs_item"><div class="breadcrumbs_item_sep">&#47;</div></div> <div class="breadcrumbs_item"><span class="breadcrumbs_item_target">Request a quote			</span></div>
 		</div>
 		</div></div>
 		</div>			</div>
@@ -348,7 +793,18 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 								<div class="elementor-element elementor-element-5db22a0 elementor-invisible elementor-widget elementor-widget-heading" data-id="5db22a0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-heading-title{padding:0;margin:0;line-height:1; min-width: 40vw; display: flex; }.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h1 class="elementor-heading-title elementor-size-default">Request a quote
+				.elementor-heading-title{padding:0;margin:0;line-height:1; min-width: 40vw; display: flex; }
+				.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}
+				.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}
+				.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}
+				.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}
+				.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}
+				.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px} 
+			</style>
+				<h1 class="elementor-heading-title elementor-size-default" style="
+				display: flex;
+				justify-content: center;
+				">quotation
 </h1>		</div>
 				</div>
 				<div class="elementor-element elementor-element-6b9dad9 elementor-widget-divider--view-line elementor-invisible elementor-widget elementor-widget-divider" data-id="6b9dad9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="divider.default">
@@ -372,7 +828,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 				<div class="elementor-widget-container">
 			<div class="elementor-contact-form-7 jet-elements"><div role="form" class="wpcf7" id="wpcf7-f5-p22-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
-<form action="http://localhost/wordpress/contacts/#wpcf7-f5-p22-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<form action="index.html" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="5" />
 <input type="hidden" name="_wpcf7_version" value="5.6" />
@@ -381,6 +837,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <input type="hidden" name="_wpcf7_container_post" value="22" />
 <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
 </div>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; color: #000; ">
+	<label style="color: #000; margin-top: 1vh; margin-bottom: 1vh; font-size: 1.2rem;"> We look forward to supplying you with high-quality kitchens and exceptional service.</label>
+	<label style="color: #000; margin-top: 2vh; margin-bottom: 1vh; font-size: 1.2rem;">Let’s talk about your project.</label>
+	<label style="color: #000; margin-top: 2vh; margin-bottom: 1vh; font-size: 1.2rem;">845 414 0055</label>
+	<label style="color: #000; margin-top: 1vh; margin-bottom: 1vh; font-size: 1.2rem;">office@corecabinetry.com</label>
+</div>
+
 <div class="row">
 <div class = "col-md-12 col-sm-12 col-xs-12">
 	<span class="wpcf7-form-control-wrap" data-name="your-name">
@@ -402,7 +865,24 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		<textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
 	</span>
 </div>
-<div class = "col-md-12 col-sm-12 col-xs-12" style="display: flex;justify-content: center;"><input type="submit" value="REQUEST A QUOTE" class="wpcf7-form-control has-spinner wpcf7-submit" /></div>
+
+
+
+<style>
+	@media (max-width: 1000px){
+		.botonesPersonalizadosCinco{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+			min-height: 20vh;
+		}		
+	}
+</style>
+
+
+
+<div class = "col-md-12 col-sm-12 col-xs-12 botonesPersonalizadosCinco" style="display: flex;justify-content: center;"><input type="submit" value="SEND" class="wpcf7-form-control has-spinner wpcf7-submit" /></div>
 </div>
 <div class="wpcf7-response-output" aria-hidden="true"></div></form></div></div>		</div>
 				</div>
@@ -488,144 +968,361 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 
-	<footer id="colophon" class="site-footer " style="background-color: #E0D6C5">
-		<div data-elementor-type="jet_footer" data-elementor-id="121" class="elementor elementor-121">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-13387d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13387d5" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;487f66a&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}]}">
-				<div class="elementor-container elementor-column-gap-default">
-			<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8a62eb" data-id="f8a62eb" data-element_type="column">
-	<div class="elementor-widget-wrap elementor-element-populated">
-						<section class="elementor-section elementor-inner-section elementor-element elementor-element-042847d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="042847d" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;52b1191&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}]}">
-				<div class="elementor-container elementor-column-gap-default">
-			<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-cd12f06" data-id="cd12f06" data-element_type="column">
-	<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-4d11cf0 elementor-widget elementor-widget-jet-logo" data-id="4d11cf0" data-element_type="widget" data-widget_type="jet-logo.default">
-		<div class="elementor-widget-container">
-	<div class="elementor-jet-logo jet-blocks"><div class="jet-logo jet-logo-type-image jet-logo-display-block">
-<div class="jet-logo__link">
-<!-- Img Footer-->
-<img src="img/LogoFooter.png" class="jet-logo__img" alt="House" width="250" height="19" srcset="img/LogoFooter.png "></div></div>
-</div>		</div>
-		</div>
-		<div class="elementor-element elementor-element-5463a3a elementor-widget elementor-widget-spacer" data-id="5463a3a" data-element_type="widget" data-widget_type="spacer.default">
-		<div class="elementor-widget-container">
-			<div class="elementor-spacer">
-	<div class="elementor-spacer-inner"></div>
-</div>
-		</div>
-		</div>
-		<div class="elementor-element elementor-element-d7f1d79 elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="d7f1d79" data-element_type="widget" data-widget_type="button.default">
-		<div class="elementor-widget-container">
-			<div class="elementor-button-wrapper">
-	<a href="tel:18002345678" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-				<span class="elementor-button-content-wrapper">
-				<span class="elementor-button-text">1 800 234 5678</span>
-</span>
-			</a>
-</div>
-		</div>
-		</div>
-		<div class="elementor-element elementor-element-9aac563 elementor-widget elementor-widget-spacer" data-id="9aac563" data-element_type="widget" data-widget_type="spacer.default">
-		<div class="elementor-widget-container">
-			<div class="elementor-spacer">
-	<div class="elementor-spacer-inner"></div>
-</div>
-		</div>
-		</div>
-		<div class="elementor-element elementor-element-68ec704 elementor-widget elementor-widget-text-editor" data-id="68ec704" data-element_type="widget" data-widget_type="text-editor.default">
-		<div class="elementor-widget-container">
-					178 West 27th Street, Suite 527 New York NY 10012
-				</div>
-		</div>
-		<div class="elementor-element elementor-element-7d97351 elementor-widget elementor-widget-spacer" data-id="7d97351" data-element_type="widget" data-widget_type="spacer.default">
-		<div class="elementor-widget-container">
-			<div class="elementor-spacer">
-	<div class="elementor-spacer-inner"></div>
-</div>
-		</div>
-		</div>
-		<div class="elementor-element elementor-element-e60d69e elementor-widget elementor-widget-button" data-id="e60d69e" data-element_type="widget" data-widget_type="button.default">
-		<div class="elementor-widget-container">
-			<div class="elementor-button-wrapper">
-	<a href="mailto:admin@demolink.com" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-				<span class="elementor-button-content-wrapper">
-				<span class="elementor-button-text">ADMIN@CORECABINETRY</span>
-</span>
-			</a>
-</div>
-		</div>
-		</div>
-			</div>
-</div>
-		<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c1bf30" data-id="1c1bf30" data-element_type="column">
-	<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-826fa4f jet-nav-align-flex-start elementor-widget elementor-widget-jet-nav-menu" data-id="826fa4f" data-element_type="widget" data-widget_type="jet-nav-menu.default">
-		<div class="elementor-widget-container">
-	<nav class="jet-nav-wrap"><div class="menu-main-menu-container">
 
-		<div class="jet-nav jet-nav--vertical jet-nav--vertical-sub-right-side">
-			<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-28 jet-nav__item"><a href="about/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">About</span></a></div>
-<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-27 jet-nav__item"><a href="what-we-do/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">Our projects</span></a></div>
-<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-26 jet-nav__item"><a href="projects/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">Browse our selection</span></a></div>
-<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-25 jet-nav__item"><a href="contacts/index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text">Quotation</span></a></div>
-</div></div></nav>		</div>
-		</div>
-			</div>
-</div>
-		<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-84c2343" data-id="84c2343" data-element_type="column">
-	<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-3288966 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3288966" data-element_type="widget" data-widget_type="icon-list.default">
-		<div class="elementor-widget-container">
-	<link rel="stylesheet" href="wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		
-	
-	<ul class="elementor-icon-list-items" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-					<li class="elementor-icon-list-item" 
-					style="min-height: 10vh; display: flex; justify-content: center; align-items: center;  padding: 0;"
-					>
-									<a href="#">
-										<img src="img/IconoInsta.png">											
-									</a>
-							</li>
-						<li class="elementor-icon-list-item"
-						style="min-height: 10vh; display: flex; justify-content: center; align-items: center;  margin: 0;padding: 0; margin-left: 2.5vw;margin-right: 2.5vw;"
+	<footer id="colophon" class="site-footer " style="background-color: #E0D6C5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		"		
+	>
+
+		<div data-elementor-type="jet_footer" data-elementor-id="121" class="elementor elementor-121"
+		
+		style="background-color: #E0D6C5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	"		
+		>
+
+
+		<style>
+			.elementor-element-13387d5{
+				background-color: #E0D6C5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-height: 60vh;
+			}
+		
+			@media  (max-width: 1000px){
+				.elementor-element-13387d5{
+					background-color: #E0D6C5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-height: 80vh;
+				}
+			}
+		</style>
+
+			<section class="elementor-section elementor-top-section elementor-element elementor-element-13387d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13387d5" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;487f66a&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}]}"
+			
+			style="
+		"				
+			>
+
+						<div class="elementor-container elementor-column-gap-default"
+						style="background-color: #E0D6C5;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						"		
 						>
-									<a href="#">
 
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f8a62eb" data-id="f8a62eb" data-element_type="column"
+					
+					style="background-color: #E0D6C5;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					"						
+					>
+		
+					<style>
+										</style>
+
+
+			<div class="elementor-widget-wrap elementor-element-populated"
+			style="
+			"		
+			>
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-042847d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="042847d" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;52b1191&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}]}"
+								style="
+								background-color: #E0D6C5;								
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								margin-top: 5%;
+								"									
+							>
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-cd12f06" data-id="cd12f06" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4d11cf0 elementor-widget elementor-widget-jet-logo" data-id="4d11cf0" data-element_type="widget" data-widget_type="jet-logo.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-jet-logo jet-blocks"><div class="jet-logo jet-logo-type-image jet-logo-display-block">
+<div class="jet-logo__link">
+	<!-- Img Footer-->
+	<a href="index.html">
+		<img src="img/LogoFooter.png" class="jet-logo__img" alt="House" width="250" height="19" srcset="img/LogoFooter.png " />
+	</a>	
+</div>
+</div>
+</div>		</div>
+				</div>
+
+
+
+	<div class="elementor-element elementor-element-5463a3a elementor-widget elementor-widget-spacer" data-id="5463a3a" data-element_type="widget" data-widget_type="spacer.default"
+				style="">
+		<div class="elementor-widget-container">
+			<div class="elementor-spacer" style="">
+				<div class="elementor-spacer-inner" style=" 
+				
+				"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="elementor-element elementor-element-d7f1d79 elementor-align-left elementor-mobile-align-left elementor-widget elementor-widget-button" data-id="d7f1d79" data-element_type="widget" data-widget_type="button.default">
+		<div class="elementor-widget-container">
+			<div class="elementor-button-wrapper">
+				<a href="tel:18454140055" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+					<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">1-845-414-0055</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+			
+	<div class="elementor-element elementor-element-9aac563 elementor-widget elementor-widget-spacer" data-id="9aac563" data-element_type="widget" data-widget_type="spacer.default">
+		<div class="elementor-widget-container">
+			<div class="elementor-spacer">
+				<div class="elementor-spacer-inner" style="
+			
+				"></div>
+			</div>
+		</div>
+	</div>
+	<style>
+		.elementor-spacer-inner{
+			min-height: 3vh;
+				max-height: 3vh;
+		}
+	
+		@media  (max-width: 1000px){
+			.elementor-spacer-inner{
+				min-height: 0vh;
+				max-height: 0vh;
+			}
+		}
+	</style>
+	
+	<div class="elementor-element elementor-element-68ec704 elementor-widget elementor-widget-text-editor" data-id="68ec704" data-element_type="widget" data-widget_type="text-editor.default">
+		<div class="elementor-widget-container">
+				750 Chestnut Ridge Rd Suite 108<br /> Chestnut Ridge, NY, 10977
+		</div>
+	</div>
+		
+	<div class="elementor-element elementor-element-7d97351 elementor-widget elementor-widget-spacer" data-id="7d97351" data-element_type="widget" data-widget_type="spacer.default">
+		<div class="elementor-widget-container">
+			<div class="elementor-spacer">
+				<div class="elementor-spacer-inner" style=" 
+			
+				"></div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="elementor-element elementor-element-e60d69e elementor-widget elementor-widget-button" data-id="e60d69e" data-element_type="widget" data-widget_type="button.default">
+		<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="mailto:office@corecabinetry.com" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+
+<style>
+	.textoPersonalizadoUno{
+		font-size: 0.8vw;
+	}
+
+	@media  (max-width: 1000px){
+		.textoPersonalizadoUno{
+			font-size: 5vw;
+		}
+	}
+</style>
+
+						<span class="elementor-button-text textoPersonalizadoUno" style="text-transform: lowercase; ">Office@corecabinetry.com</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1c1bf30" data-id="1c1bf30" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-826fa4f jet-nav-align-flex-start elementor-widget elementor-widget-jet-nav-menu" data-id="826fa4f" data-element_type="widget" data-widget_type="jet-nav-menu.default">
+				<div class="elementor-widget-container">
+			<nav class="jet-nav-wrap"><div class="menu-main-menu-container">
+
+
+
+
+				<style>
+							#titleFooter{
+							font-size: 0.9vw;
+							text-transform: capitalize;
+						}
+					@media (max-width: 1000px) {					
+						#titleFooter{
+							font-size: 4vw;
+							text-transform: capitalize;
+						}
+					}
+				</style>
+
+				<div class="jet-nav jet-nav--vertical jet-nav--vertical-sub-right-side textTen">
+
+					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-28 jet-nav__item">
+						<a href="index.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top titulosMemu">
+							<span class="jet-nav-link-text"  id="titleFooter">Home</span>
+						</a></div>
+					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-28 jet-nav__item"><a href="about.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text"  style="text-transform: capitalize; "  id="titleFooter">About</span></a></div>
+					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-27 jet-nav__item"><a href="projects.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text titulosMemu"  style="text-transform: capitalize; "  id="titleFooter">Our projects</span></a></div>
+					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-26 jet-nav__item"><a href="browser.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text titulosMemu"  style="text-transform: capitalize;  min-width: 12vw;"  id="titleFooter">Browse our selection</span></a></div>
+					<div class="menu-item menu-item-type-post_type menu-item-object-page jet-nav__item-25 jet-nav__item"><a href="contact.html" class="menu-item-link menu-item-link-depth-0 menu-item-link-top"><span class="jet-nav-link-text titulosMemu"  style="text-transform: capitalize; "  id="titleFooter">Quotation</span></a></div>
+</div></div></nav>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-84c2343" data-id="84c2343" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3288966 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3288966" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		
+			
+
+
+
+
+			<style>
+				.listaIconos{
+					display: flex; 
+						flex-direction: column; 
+						align-items: flex-end;
+				}
+			@media (max-width: 1000px) {
+				.listaIconos{
+					display: flex; 
+						flex-direction: column; 
+						align-items: center;
+				}
+			}
+		</style>
+
+
+			<ul class="elementor-icon-list-items listaIconos" 
+				style="	
+						"
+						
+						>
+
+
+
+
+	<style>
+	
+		@media (max-width: 1000px) {
+			.iconosFooter{
+			}
+		}
+	</style>
+
+							<li class="elementor-icon-list-item iconosFooter"  
+							style="
+								min-height: 10vh; 
+								display: flex; 
+								justify-content: center; 
+								align-items: center;  
+								padding: 0;
+								margin: 0;
+							"
+							>
+								<a href="#">
+									<img src="img/IconoInsta.png" > 											
+								</a>
+							</li>
+							<li class="elementor-icon-list-item"
+								style="
+								min-height: 10vh; 
+								display: flex; justify-content: center; 
+								align-items: center;  margin: 0;padding: 0; 
+								margin-right: 0vw
+								;"
+								
+								>
+									<a href="#">
 										<img src="img/IconoFace.png">
 									</a>
 							</li>
-						<li class="elementor-icon-list-item"
-						style="min-height: 10vh; display: flex; justify-content: center; align-items: center; margin: 0;"
-						>
+							<li class="elementor-icon-list-item"
+								style="min-height: 10vh; display: flex; justify-content: center; align-items: center; margin: 0;"
+								>
 									<a href="#">
-
 										<img src="img/IconoWhats.png">
 									</a>
 							</li>
-				</ul>
-		</div>
-		</div>
-			</div>
-</div>
+						</ul>
+				</div>
+				</div>
 					</div>
-</section>
+		</div>
+							</div>
+		</section>
+		
+		
 		<section class="elementor-section elementor-inner-section elementor-element elementor-element-70b81f8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="70b81f8" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[{&quot;jet_parallax_layout_image&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;_id&quot;:&quot;cc0585d&quot;,&quot;jet_parallax_layout_image_tablet&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_image_mobile&quot;:{&quot;url&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;},&quot;jet_parallax_layout_speed&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:50,&quot;sizes&quot;:[]},&quot;jet_parallax_layout_type&quot;:&quot;scroll&quot;,&quot;jet_parallax_layout_z_index&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x&quot;:50,&quot;jet_parallax_layout_bg_y&quot;:50,&quot;jet_parallax_layout_bg_size&quot;:&quot;auto&quot;,&quot;jet_parallax_layout_animation_prop&quot;:&quot;transform&quot;,&quot;jet_parallax_layout_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;jet_parallax_layout_direction&quot;:null,&quot;jet_parallax_layout_fx_direction&quot;:null,&quot;jet_parallax_layout_bg_x_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_x_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_y_mobile&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_tablet&quot;:&quot;&quot;,&quot;jet_parallax_layout_bg_size_mobile&quot;:&quot;&quot;}]}">
-				<div class="elementor-container elementor-column-gap-default">
-			<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-612a704" data-id="612a704" data-element_type="column">
-	<div class="elementor-widget-wrap elementor-element-populated">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-612a704" data-id="612a704" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-e2f691e elementor-widget elementor-widget-text-editor" data-id="e2f691e" data-element_type="widget" data-widget_type="text-editor.default">
-		<div class="elementor-widget-container">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+					</div>
+				</div>
+							</div>
+		</section>
+					</div>
 		</div>
-		</div>
-			</div>
-</div>
-					</div>
-</section>
-			</div>
-</div>
-					</div>
-</section>
-					</div>
-	</footer><!-- #colophon -->
+							</div>
+		</section>
+							</div>
+			</footer><!-- #colophon -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
